@@ -5,10 +5,10 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 /*
   @title FlashUSDT
-  @dev A mock USDT‑like TRC‑20 token with 6 decimals. Only the contract owner
+  @dev A mock USDT‑like ERC‑20 token with 6 decimals. Only the contract owner
        (your admin wallet) may mint new tokens.
  /
-contract FlashUSDT is TRC20, Ownable {
+contract FlashUSDT is ERC20, Ownable {
     // USDT uses six decimal places
     uint8 private constant DECIMALS = 6;
 
